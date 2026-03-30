@@ -3,7 +3,7 @@ services:
   name: elasticsearch
   env: docker
 #  plan: standard
-  plan: free
+  plan: starter
   disk:
     name: esdata
     mountPath: /usr/share/elasticsearch/data
